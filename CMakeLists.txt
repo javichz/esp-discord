@@ -33,9 +33,9 @@ idf_component_register(
          src/discord.c
          src/discord_ota.c
     INCLUDE_DIRS include include/helpers
-    REQUIRES json esp_websocket_client esp_http_client
+    REQUIRES json esp_websocket_client esp_http_client esp_event esp_timer bootloader_support spi_flash
     PRIV_REQUIRES app_update nvs_flash
     EMBED_TXTFILES ${CERTS}
 )
 
-target_compile_options(${COMPONENT_LIB} PRIVATE -Wno-missing-field-initializers)
+target_compile_options(${COMPONENT_LIB} PRIVATE -Wno-format -Wno-missing-field-initializers)

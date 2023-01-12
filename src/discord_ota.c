@@ -1,4 +1,6 @@
 #include "esp_ota_ops.h"
+#include "esp_app_format.h"
+#include "esp_timer.h"
 #include "discord/private/_discord.h"
 #include "discord_ota.h"
 #include "discord/session.h"
