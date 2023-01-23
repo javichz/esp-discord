@@ -15,7 +15,7 @@ extern "C" {
 #define DISCORD_EMOJI_CONFUSED          "😕"
 #define DISCORD_EMOJI_WHITE_CHECK_MARK  "✅"
 #define DISCORD_EMOJI_X                 "❌"
-#define DISCORD_EMOJI_RED               "❤"
+#define DISCORD_EMOJI_RED               "❤️"
 #define DISCORD_EMOJI_GREEN             "💚"
 #define DISCORD_EMOJI_BLUE              "💙"
 #define DISCORD_EMOJI_YELLOW            "💛"
